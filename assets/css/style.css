@@ -137,7 +137,7 @@ h3 {
   background-color: var(--milky);
 }
 [type="search"]::placeholder {
-  color: var(--light-green-cyan);
+  color: var(--dark-cremie);
 }
 /* 
 * REUSED STYLE
@@ -722,7 +722,7 @@ slide-show .image-box .slide2 p button {
 .brands .slide-brands {
   position: relative;
   padding-block: 20px;
-  border-block: 1px solid var(--font-color);
+  border-block-end: 1px solid var(--gray);
   display: flex;
   justify-content: space-between;
   align-items: center;

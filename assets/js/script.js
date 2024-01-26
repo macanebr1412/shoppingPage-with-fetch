@@ -384,6 +384,8 @@ searchBar.onkeyup = function () {
 
 moreProductBtn = document.querySelector(".more a");
 moreProductBtn.onclick = function (e) {
+  allProduct.innerHTML = "";
+  productInsert = "";
   e.preventDefault();
   if (!isSearch) {
     showProduct(productList, productList.length - 1);
@@ -423,7 +425,7 @@ const sections = document.querySelectorAll(".section");
 
 const scrollReveal = function () {
   for (const section of sections) {
-    if (section.getBoundingClientRect().top < window.innerHeight / 1.5) {
+    if (section.getBoundingClientRect().top < window.innerHeight / 1.2) {
       section.classList.add("active");
     } else {
       section.classList.remove("active");
