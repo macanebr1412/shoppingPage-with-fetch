@@ -200,7 +200,10 @@ const forwardButton = document.getElementById("forward");
 
 let brandsList = [];
 let brandInsert = "";
-fetch("/assets/json/brand.json")
+// fetch("assets/json/brand.json")
+fetch(
+  "https://macanebr1412.github.io/shoppingPage-with-fetch/assets/json/brand.json"
+)
   .then(function (res) {
     return res.json();
   })
@@ -269,7 +272,11 @@ const showProduct = function (list, length) {
   }
 };
 const xhttp = new XMLHttpRequest();
-xhttp.open("GET", "/assets/json/product.json");
+// xhttp.open("GET", "/assets/json/product.json");
+xhttp.open(
+  "GET",
+  "https://macanebr1412.github.io/shoppingPage-with-fetch/assets/json/product.json"
+);
 xhttp.send();
 xhttp.onload = function () {
   productList = JSON.parse(this.responseText);
