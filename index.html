@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="macan-Best sport sport shopping site" />
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <!-- link Dm sans to set font family -->
+    <link href="https://fonts.cdnfonts.com/css/dm-sans" rel="stylesheet" />
+
+    <!-- CUSTOM CSS LINK -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <title>macan sport shopping</title>
+  </head>
+  <body>
+    <!-- 
+        -HEADER
+     -->
+    <header class="header">
+      <div class="header-banner">
+        <div class="banner-content" data-banner-content>
+          <p>FREE AND EASY RETURNS</p>
+          <a href="#">SEE DETAILS</a>
+        </div>
+      </div>
+
+      <nav class="nav" data-nav>
+        <div class="nav-logo" data-logo>macan</div>
+        <ul class="navbar" data-navbar>
+          <li class="navbar-item">
+            <a href="#" class="navbar-link active">Home</a
+            ><i class="fa-solid fa-greater-than"></i>
+          </li>
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">women</a
+            ><i class="fa-solid fa-greater-than"></i>
+          </li>
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">men</a
+            ><i class="fa-solid fa-greater-than"></i>
+          </li>
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">kids </a
+            ><i class="fa-solid fa-greater-than"></i>
+          </li>
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">classics</a
+            ><i class="fa-solid fa-greater-than"></i>
+          </li>
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">collaborations</a
+            ><i class="fa-solid fa-greater-than"></i>
+          </li>
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">sport</a
+            ><i class="fa-solid fa-greater-than"></i>
+          </li>
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">sale</a
+            ><i class="fa-solid fa-greater-than"></i>
+          </li>
+        </ul>
+        <ul class="icon-list">
+          <li>
+            <i class="fa fa-search"></i>
+          </li>
+          <li>
+            <i class="fa fa-heart"></i>
+          </li>
+          <li>
+            <i class="fa fa-basket-shopping"></i>
+          </li>
+          <li>
+            <i class="fa fa-user-plus"></i>
+          </li>
+          <li class="navbar-toggler" data-navbar-toggler>
+            <i class="fa fa-bars"></i>
+          </li>
+        </ul>
+        <div class="search-bar">
+          <div class="back">
+            <i class="fa fa-less-than"></i>
+          </div>
+          <input
+            type="search"
+            name="search"
+            id="search"
+            placeholder="search..."
+          />
+        </div>
+        <div class="search-result"></div>
+      </nav>
+    </header>
+    <!-- FINISH HEADER -->
+
+    <!-- 
+  -main
+ -->
+
+    <main>
+      <article>
+        <!-- 
+          -SLIDE SHOW
+         -->
+        <section class="slide-show section" data-section>
+          <div class="container">
+            <div class="image-box">
+              <div class="image-wrapper slide1 d-block">
+                <img
+                  class="w-100 h-auto"
+                  src="assets/images/macan.jpg"
+                  alt="macan"
+                />
+                <div class="slide-content">
+                  <div class="slide-header">
+                    <h1>do you want run like <em>macan</em>?</h1>
+                  </div>
+                  <div class="slide-text">
+                    <p>join us and buy our new <em>sneakers</em></p>
+                  </div>
+                  <div class="button-wrapper">
+                    <button class="btn btn-primary">
+                      join us <i class="fa fa-sign-in"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="image-wrapper slide2 d-none">
+                <img
+                  class="w-100 h-auto"
+                  src="assets/images/football-collection.jpg"
+                  alt=""
+                />
+                <div class="slide-content">
+                  <div class="slide-header">
+                    <h3>our football <em>new collection</em></h3>
+                  </div>
+                  <div class="slide-text">
+                    <p>
+                      pre sale with 20% off
+                      <button class="btn btn-secondary">buy now</button>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="image-wrapper slide3 d-none">
+                <img
+                  class="w-100 h-auto"
+                  src="assets/images/basketball.jpg"
+                  alt=""
+                />
+                <div class="slide-content">
+                  <div class="slide-header">
+                    <h3>see <em>basketball</em> new collection</h3>
+                  </div>
+                </div>
+                <button class="btn btn-secondary">shop now</button>
+              </div>
+
+              <div class="image-wrapper slide4 d-none">
+                <img
+                  class="w-100 h-auto"
+                  src="assets/images/arsenal.jpg"
+                  alt=""
+                />
+                <div class="slide4-background"></div>
+                <div class="slide-content">
+                  <div class="slide-header">
+                    <h3>arsenal kit on sale 20%</h3>
+                  </div>
+                  <div class="button-wrapper">
+                    <button class="btn btn-secondary">See kits</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slide-button-box">
+              <button class="btn-slide active" id="btn1"></button>
+              <button class="btn-slide" id="btn2"></button>
+              <button class="btn-slide" id="btn3"></button>
+              <button class="btn-slide" id="btn4"></button>
+            </div>
+          </div>
+        </section>
+        <!-- 
+          -TRENDING
+         -->
+
+        <section class="trending section" data-section>
+          <div class="container">
+            <div class="trending-header">
+              <div class="header-box">
+                <h2>trending</h2>
+              </div>
+              <div class="trending-button-box">
+                <button class="btn btn-circle left">
+                  <i class="fa fa-less-than"></i>
+                </button>
+                <button class="btn btn-circle right active">
+                  <i class="fa fa-greater-than"></i>
+                </button>
+              </div>
+            </div>
+            <div class="trending-slide">
+              <div class="slide slide-1">
+                <a href="#">
+                  <div class="trending-image">
+                    <img
+                      src="assets/images/trending-1.jpg"
+                      width="400"
+                      height="400"
+                      alt="adidas slash"
+                    />
+                  </div>
+
+                  <div class="trending-description">
+                    <h4 class="description-header">An adicolor story</h4>
+                    <p class="description-text">paint it blue</p>
+                    <button class="btn btn-primary">SHOP NOW</button>
+                  </div>
+                </a>
+              </div>
+              <div class="slide slide-2">
+                <a href="#">
+                  <div class="trending-image">
+                    <img
+                      src="assets/images/trending-2.jpg"
+                      width="400"
+                      height="400"
+                      alt="red hoodie"
+                    />
+                  </div>
+
+                  <div class="trending-description">
+                    <h4 class="description-header">Take cushion for a run</h4>
+                    <p class="description-text">nike invincible 3</p>
+                    <button class="btn btn-primary">SHOP NOW</button>
+                  </div>
+                </a>
+              </div>
+              <div class="slide slide-3">
+                <a href="#">
+                  <div class="trending-image">
+                    <img
+                      src="assets/images/trending-3.jpg"
+                      width="400"
+                      height="400"
+                      alt="running woman"
+                    />
+                  </div>
+
+                  <div class="trending-description">
+                    <h4 class="description-header">
+                      Your ready-to-go foundation.
+                    </h4>
+                    <p class="description-text">new T-shirts and leggings</p>
+                    <button class="btn btn-primary">SHOP NOW</button>
+                  </div>
+                </a>
+              </div>
+              <div class="slide slide-4">
+                <a href="#">
+                  <div class="trending-image">
+                    <img
+                      src="assets/images/trending-4.jpg"
+                      width="400"
+                      height="400"
+                      alt="yellow hoodie"
+                    />
+                  </div>
+
+                  <div class="trending-description">
+                    <h4 class="description-header">
+                      The season's hottest color
+                    </h4>
+                    <p class="description-text">new hoddies collection.</p>
+                    <button class="btn btn-primary">SHOP NOW</button>
+                  </div>
+                </a>
+              </div>
+              <div class="slide slide-5">
+                <a href="#">
+                  <div class="trending-image">
+                    <img
+                      src="assets/images/trending-5.jpg"
+                      width="400"
+                      height="400"
+                      alt="red hoodie"
+                    />
+                  </div>
+
+                  <div class="trending-description">
+                    <h4 class="description-header">
+                      Run and run and run like a <em>macan</em>
+                    </h4>
+                    <p class="description-text">new running shoes</p>
+                    <button class="btn btn-primary">SHOP NOW</button>
+                  </div>
+                </a>
+              </div>
+              <div class="slide slide-6">
+                <a href="#">
+                  <div class="trending-image">
+                    <img
+                      src="assets/images/trendnig-6.webp"
+                      width="400"
+                      height="400"
+                      alt="red hoodie"
+                    />
+                  </div>
+
+                  <div class="trending-description">
+                    <h4 class="description-header">Play tennis</h4>
+                    <p class="description-text">new tennis collection</p>
+                    <button class="btn btn-primary">SHOP NOW</button>
+                  </div>
+                </a>
+              </div>
+              <div class="slide slide-7">
+                <a href="#">
+                  <div class="trending-image">
+                    <img
+                      src="assets/images/trending-7.jpg"
+                      width="400"
+                      height="400"
+                      alt="red hoodie"
+                    />
+                  </div>
+
+                  <div class="trending-description">
+                    <h4 class="description-header">Samba</h4>
+                    <p class="description-text">
+                      retro vibes and unmatched comfort
+                    </p>
+                    <button class="btn btn-primary">SHOP NOW</button>
+                  </div>
+                </a>
+              </div>
+              <div class="slide slide-8">
+                <a href="#">
+                  <div class="trending-image">
+                    <img
+                      src="assets/images/trending-8.jpg"
+                      width="400"
+                      height="400"
+                      alt="red hoodie"
+                    />
+                  </div>
+
+                  <div class="trending-description">
+                    <h4 class="description-header">
+                      Made for mindful movement
+                    </h4>
+                    <p class="description-text">resolutions starter pack</p>
+                    <button class="btn btn-primary">SHOP NOW</button>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+          - BRANDS 
+         -->
+        <section class="section brands">
+          <div class="container">
+            <div class="brands-header">
+              <h2>Brands</h2>
+            </div>
+            <div class="slide-brands">
+              <div id="backward" class="btn-slide-box left">
+                <i class="fa fa-less-than"></i>
+              </div>
+              <div class="show-brands"></div>
+              <div id="forward" class="btn-slide-box right">
+                <i class="fa fa-greater-than"></i>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+          -CATEGORIES
+         -->
+        <section class="section categories">
+          <div class="container">
+            <div class="categories-header">
+              <h2>Categories</h2>
+            </div>
+            <div class="cataegories-box">
+              <a href="#">
+                <div class="categories-card">
+                  <div class="categories-image-box w-100">
+                    <img
+                      src="assets/images/women.png"
+                      alt="women sport"
+                      class="w-100 h-auto"
+                    />
+                    <div class="categories-card-content">
+                      <h3>Women</h3>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="#">
+                <div class="categories-card">
+                  <div class="categories-image-box w-100">
+                    <img
+                      src="assets/images/men.jfif"
+                      alt="men sport"
+                      class="w-100 h-auto"
+                    />
+                    <div class="categories-card-content">
+                      <h3>Men</h3>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="#">
+                <div class="categories-card">
+                  <div class="categories-image-box w-100">
+                    <img
+                      src="assets/images/kids.jpg"
+                      alt="kids sport"
+                      class="w-100 h-auto"
+                    />
+                    <div class="categories-card-content">
+                      <h3>Kids</h3>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </section>
+        <!-- 
+          -PRODUCT
+         -->
+        <section class="section product">
+          <div class="container">
+            <div class="product-header">
+              <h2>All Product</h2>
+            </div>
+            <div class="sorting-box">
+              <div class="search-box">
+                <input
+                  type="search"
+                  name="search2"
+                  id="search2"
+                  autocomplete="off"
+                  placeholder="search ..."
+                />
+                <i class="fa fa-search"></i>
+              </div>
+              <div class="filter-box">
+                <div class="price">
+                  <div class="high-price">
+                    <label for="high-price">Highest price</label>
+                    <input
+                      class="d-none"
+                      type="radio"
+                      name="radio-btn"
+                      id="high-price"
+                    />
+                  </div>
+                  <div class="low-price">
+                    <label for="low-price">Lowest price</label>
+                    <input
+                      class="d-none"
+                      type="radio"
+                      name="radio-btn"
+                      id="low-price"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-box">
+              <!-- for loading -->
+              <div class="loading">
+                <div class="product-loading-item">
+                  <a class="product-loading-link" href="#">
+                    <div class="product-loading-card">
+                      <div class="card-loading-image"></div>
+                      <div class="card-loading-content">
+                        <div class="card-loading-header"></div>
+                        <div class="card-loading-categories"></div>
+                        <div class="card-loading-price"></div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="product-loading-item">
+                  <a class="product-loading-link" href="#">
+                    <div class="product-loading-card">
+                      <div class="card-loading-image"></div>
+                      <div class="card-loading-content">
+                        <div class="card-loading-header"></div>
+                        <div class="card-loading-categories"></div>
+                        <div class="card-loading-price"></div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="product-loading-item">
+                  <a class="product-loading-link" href="#">
+                    <div class="product-loading-card">
+                      <div class="card-loading-image"></div>
+                      <div class="card-loading-content">
+                        <div class="card-loading-header"></div>
+                        <div class="card-loading-categories"></div>
+                        <div class="card-loading-price"></div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="product-loading-item">
+                  <a class="product-loading-link" href="#">
+                    <div class="product-loading-card">
+                      <div class="card-loading-image"></div>
+                      <div class="card-loading-content">
+                        <div class="card-loading-header"></div>
+                        <div class="card-loading-categories"></div>
+                        <div class="card-loading-price"></div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <!-- finish loading part -->
+              <div class="all-product"></div>
+            </div>
+
+            <div class="more">
+              <a href="#">All Product</a>
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+    <!-- FINISH MAIN -->
+
+    <!-- 
+        -FOOTER
+       -->
+    <footer class="footer">
+      <div class="container">
+        <nav class="footer-nav">
+          <ul class="footer-accordion">
+            <li class="footer-accordion-header">support</li>
+            <ul class="footer-accordion-list">
+              <li>Contact Us</li>
+              <li>Shipping and Delivery</li>
+              <li>Terms and Conditions</li>
+              <li>Store Locator</li>
+              <li>Refer a Friend</li>
+              <li>Service Discont</li>
+            </ul>
+          </ul>
+
+          <ul class="footer-accordion">
+            <li class="footer-accordion-header">about</li>
+            <ul class="footer-accordion-list">
+              <li>Company</li>
+              <li>Corporate News</li>
+              <li>Press Center</li>
+              <li>Reform</li>
+              <li>Investors</li>
+              <li>Careers</li>
+            </ul>
+          </ul>
+
+          <ul class="footer-accordion">
+            <li class="footer-accordion-header">get help</li>
+            <ul class="footer-accordion-list">
+              <li>Order Status</li>
+              <li>Payment Option</li>
+              <li>Contact Us</li>
+              <li>Purpose</li>
+              <li>Sustainability</li>
+              <li>Macan Promo Codes Help</li>
+            </ul>
+          </ul>
+        </nav>
+        <div class="footer-info">
+          <div class="social-media">
+            <i class="fab fa-2x fa-instagram"></i>
+            <i class="fab fa-2x fa-x-twitter"></i>
+            <i class="fab fa-2x fa-whatsapp"></i>
+            <i class="fab fa-2x fa-telegram"></i>
+            <i class="fab fa-2x fa-facebook"></i>
+          </div>
+          <div class="copyright">
+            <p>
+              <i class="fa fa-copyright"></i>
+              MACAN NORTH AMERICA, INC. IMPRINT AND LEGAL DATA WEB ID: 558 348
+              827
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- CUSTOM JS LINK -->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

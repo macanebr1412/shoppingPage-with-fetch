@@ -1,0 +1,54 @@
+[
+  {
+    "name": "adidas",
+    "imgURL": "assets/images/brands/adidas-logo.png"
+  },
+  {
+    "name": "asics",
+    "imgURL": "assets/images/brands/asics-logo.jpg"
+  },
+  {
+    "name": "converse",
+    "imgURL": "assets/images/brands/converse-logo.jpg"
+  },
+  {
+    "name": "diadora",
+    "imgURL": "assets/images/brands/diadora-logo.jpg"
+  },
+  {
+    "name": "fila",
+    "imgURL": "assets/images/brands/fila-logo.jpeg"
+  },
+  {
+    "name": "gap",
+    "imgURL": "assets/images/brands/gap-logo.png"
+  },
+  {
+    "name": "kappa",
+    "imgURL": "assets/images/brands/kappa-logo.png"
+  },
+  {
+    "name": "new balance",
+    "imgURL": "assets/images/brands/new_balance-logo.webp"
+  },
+  {
+    "name": "nike",
+    "imgURL": "assets/images/brands/nike-logo.jpg"
+  },
+  {
+    "name": "polo",
+    "imgURL": "assets/images/brands/polo-logo.jpg"
+  },
+  {
+    "name": "puma",
+    "imgURL": "assets/images/brands/puma-logo.png"
+  },
+  {
+    "name": "reebok",
+    "imgURL": "assets/images/brands/reebok-logo.jpg"
+  },
+  {
+    "name": "under armour",
+    "imgURL": "assets/images/brands/under_armour-logo.webp"
+  }
+]
