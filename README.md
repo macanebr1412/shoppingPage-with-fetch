@@ -1,1 +1,1 @@
-# shoppingPage-with-fetch
+# shoppingPage using fetch in all product section
